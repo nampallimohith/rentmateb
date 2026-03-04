@@ -1,0 +1,14 @@
+{
+    "name": "saveetha/rentmate-backend",
+    "description": "PHP Backend for Rentmate Android Application",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^6.0",
+        "razorpay/razorpay": "2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rentmate\\": "src/"
+        }
+    }
+}
